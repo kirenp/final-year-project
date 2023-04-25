@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/viewhome"
+            android:title="Home"
+            android:icon="@drawable/home1"/>
+        <item
+            android:id="@+id/viewdistrict"
+            android:title="View Toll Place"
+            android:icon="@drawable/tolla"/>
+        <item
+            android:id="@+id/viewtollamount"
+            android:title="View Toll Amount"
+            android:icon="@drawable/barrier"/>
+        <item
+            android:id="@+id/viewpaidtoll"
+            android:title="View Paid Toll History"
+            android:icon="@drawable/nfc"/>
+        <item
+            android:id="@+id/viewfine"
+            android:title="Your Pending Fines "
+            android:icon="@drawable/police123"/>
+        <item
+            android:id="@+id/viewpaidfine"
+            android:title=" View Paid Fines "
+            android:icon="@drawable/paid1"/>
+        <item
+            android:id="@+id/sendfeedback"
+            android:title="Send Feedback"
+            android:icon="@drawable/writing"/>
+
+        <item
+            android:id="@+id/viewfeedback"
+            android:title="View Feedback"
+            android:icon="@drawable/chat"/>
+        <item
+            android:id="@+id/addwallet"
+            android:title="Add Wallet"
+            android:icon="@drawable/add"/>
+        <item
+            android:id="@+id/viewwallet"
+            android:title="Your Wallets"
+            android:icon="@drawable/wal1"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:icon="@drawable/logout"/>
+
+    </group>
+
+</menu>
+
+
+

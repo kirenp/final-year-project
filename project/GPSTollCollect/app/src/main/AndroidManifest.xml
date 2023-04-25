@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.gps_tollcollect">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicontoll"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/DemoTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".NoFine"></activity>
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewDistrict" />
+        <activity android:name=".ViewTollLocation" />
+        <activity android:name=".Register" />
+        <activity android:name=".UserHome" />
+        <activity android:name=".ViewTollLocation1" />
+        <activity android:name=".ViewTollAmount" />
+        <activity android:name=".ViewDistrict1" />
+        <activity android:name=".ViewTollsPaid" />
+        <activity android:name=".ViewUserFine" />
+        <activity android:name=".ViewUserFine1" />
+        <activity android:name=".ActivityPayment" />
+        <activity android:name=".SendFeedback" />
+        <activity android:name=".ViewFeedback" />
+        <activity android:name=".ActivityPayment1" />
+        <activity android:name=".ViewWallet" />
+        <activity android:name=".AddVehicle"/>
+        <activity android:name=".ViewWallet3"/>
+        <activity android:name=".ViewWallet2"/>
+        <activity android:name=".ViewWallet1"/>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

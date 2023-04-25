@@ -1,0 +1,55 @@
+{% include 'AdminPageHeader.html' %}
+<head>
+    <style>
+         #cs {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+            #cs td, #cs th {
+
+                padding: 8px;
+            }
+
+
+
+
+
+            #cs th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+            }
+    </style>
+</head>
+
+<h2>View Toll Places</h2>
+<table id="cs">
+    <tr>
+        <td><h4>SL.No</h4></td>
+
+        <td><h4>Name</h4> </td>
+
+
+
+
+
+    </tr>
+    {% for row in data %}
+
+  <tr>
+      <td height="87"><div align="center">{{loop.index }}</div></td>
+      <td><div align="center">{{ row['name'] }}</div></td>
+       <td width="80"><div align="center" ><a href="/Location?lat={{ row['latitude'] }}&lon={{ row['longitude'] }}">Location</a></div></td>
+ <td width="80"><div align="center" ><a href="/deletetollplace?id={{ row['idtoll_place'] }}">delete</a></div></td>
+       <td width="80"><div align="center" ><a href="/ViewVehicle?id={{ row['idtoll_place'] }}">Add Toll Rate</a></div></td>
+
+  <td width="80"><div align="center" ><a href="/ViewTollAmount?id={{ row['idtoll_place'] }}">ViewTollRate</a></div></td>
+         </tr>
+
+        {% endfor %}
+
+
+</table>
+{% include 'LoginFooter.html' %}

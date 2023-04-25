@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ViewTollsPaidAdapter">
+    <LinearLayout
+        android:background="@drawable/btn2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+            <TextView
+                android:padding="10dp"
+
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="21dp"
+                android:text="njhggc"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:id="@+id/planname1"
+                android:textAppearance="@style/NewFontStyle"/>
+        <TextView
+
+
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="21dp"
+            android:text="njhggc"
+
+            android:textStyle="bold"
+            android:textColor="#4E4C4C"
+            android:id="@+id/planname2"
+            android:textAppearance="@style/NewFontStyle"/>
+        <TextView
+
+
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="21dp"
+            android:text="njhggc"
+            android:textStyle="bold"
+            android:textColor="#4E4C4C"
+            android:id="@+id/planname3"
+            android:textAppearance="@style/NewFontStyle"/>
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="21dp"
+            android:text="njhggc"
+            android:textStyle="bold"
+            android:textColor="#4E4C4C"
+            android:id="@+id/planname4"
+            android:textAppearance="@style/NewFontStyle"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

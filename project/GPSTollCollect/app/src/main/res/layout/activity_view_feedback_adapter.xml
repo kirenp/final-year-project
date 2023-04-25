@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ViewFeedbackAdapter">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_marginRight="2dp"
+            android:src="@drawable/love"
+            android:layout_height="40dp">
+
+        </ImageView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="290dp"
+        android:padding="12dp">
+
+
+        <TextView
+            android:layout_margin="0dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="1dp"
+            android:textSize="19dp"
+            android:text="njhggc"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#6C6B6B"
+            android:id="@+id/tFeedback"
+            android:textAppearance="@style/NewFontStyle"/>
+        <TextView
+            android:layout_margin="0dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="1dp"
+            android:textSize="15dp"
+            android:text="njhggc"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#6C6B6B"
+            android:id="@+id/tFeedBackDate"
+            android:textAppearance="@style/NewFontStyle"/>
+        <TextView
+            android:layout_margin="0dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="1dp"
+            android:textSize="15dp"
+            android:text="njhggc"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#599F07"
+            android:id="@+id/tReply"
+            android:textAppearance="@style/NewFontStyle"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

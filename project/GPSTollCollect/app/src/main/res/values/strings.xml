@@ -1,0 +1,7 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="name1"><u>REGISTER HERE</u></string>
+    <string name="app_name">GPS-TollCollect</string>
+
+</resources>

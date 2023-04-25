@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#302F2F"
+    android:layout_height="match_parent"
+    tools:context=".ActivityPayment">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="100dp"
+        android:text="ADD PAYMENT"
+        android:textColor="#fff"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+<LinearLayout
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="AMOUNT  :"
+        android:textColor="#00BCD4"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/tAmount"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textColor="#00BCD4"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
+
+    <EditText
+        android:id="@+id/eCardNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="8dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Card Number"
+        android:inputType="number"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#89E322"
+        android:textColorHint="#89E322"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="3px"
+        android:background="#89E322" />
+    <EditText
+        android:id="@+id/eCardHolderName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="8dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Card Holder name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#89E322"
+        android:textColorHint="#89E322"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="3px"
+        android:background="#89E322" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tCardExpiry"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawablePadding="8dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Expiry Date"
+            android:inputType="date"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#89E322"
+            android:textColorHint="#89E322"
+            android:textSize="16sp" />
+        <Button
+            android:layout_marginTop="4dp"
+            android:id="@+id/bSelectdate"
+            android:background="#39000000"
+            android:gravity="center"
+            android:textColor="#FF9800"
+            android:text="select"
+            android:layout_width="100dp"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="3px"
+        android:background="#89E322" />
+
+    <EditText
+        android:id="@+id/eCardCvv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawablePadding="8dp"
+        android:layout_marginLeft="20dp"
+        android:hint="CVV"
+        android:inputType="number"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#89E322"
+        android:textColorHint="#89E322"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="3px"
+        android:background="#89E322" />
+
+    <Button
+        android:id="@+id/bPay"
+        android:text="Pay"
+        android:background="@drawable/loginbtnblue"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="45dp">
+
+    </Button>
+
+
+</LinearLayout>

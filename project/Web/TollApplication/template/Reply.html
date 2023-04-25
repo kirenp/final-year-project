@@ -1,0 +1,32 @@
+{% include 'AdminPageHeader.html' %}
+<style>
+ input[type=submit]{
+ font-size: 13px;
+  border-radius: 20px;
+  padding: 12px 20px;
+  background-color: #00b4c6;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+input[type=submit]:hover {
+  background-color: #0088e8;
+}
+</style>
+
+<p>
+
+</p>
+<h2>Reply</h2>
+<form name="form1" method="post" action="FeedbackReply">
+<textarea name="TxtReply" rows="2" cols="30" required></textarea>
+    <br>
+    <br>
+    <input type="submit" value="submit" class="section-btn" />
+
+</form>
+{% include 'LoginFooter.html' %}

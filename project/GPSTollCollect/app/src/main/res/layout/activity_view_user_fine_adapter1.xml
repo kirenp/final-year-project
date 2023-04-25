@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ViewUserFineAdapter1">
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/paid"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="12dp">
+
+            <TextView
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/btn5"
+                android:layout_margin="0dp"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:padding="7dp"
+                android:textSize="19dp"
+                android:text="njhggc"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="#EA1606"
+                android:id="@+id/planname1"
+                android:textAppearance="@style/NewFontStyle"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="1dp"
+                android:textSize="16dp"
+                android:text="njhggc"
+                android:textStyle="bold"
+                android:textColor="#515151"
+                android:id="@+id/planname2"
+                android:textAppearance="@style/NewFontStyle"/>
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="1dp"
+                android:textSize="16dp"
+                android:text="njhggc"
+                android:textStyle="bold"
+                android:textColor="#515151"
+                android:id="@+id/planname3"
+                android:textAppearance="@style/NewFontStyle"/>
+            <TextView
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="1dp"
+                android:textSize="16dp"
+                android:text="njhggc"
+                android:textStyle="bold"
+                android:textColor="#515151"
+                android:id="@+id/planname4"
+                android:textAppearance="@style/NewFontStyle"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
